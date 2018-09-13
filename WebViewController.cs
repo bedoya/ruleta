@@ -15,13 +15,13 @@ namespace WebView {
 		{
 			base.ViewDidLoad ();
 			
-			Title = "WebView";
+			Title = "Ruleta de la participación";
 			View.BackgroundColor = UIColor.White;
 
 			webView = new UIWebView(View.Bounds);			
 			View.AddSubview(webView);
 
-			var url = "https://xamarin.com"; // NOTE: https required for iOS 9 ATS
+			var url = "http://cnpc.net.co/juego"; // NOTE: https required for iOS 9 ATS
 			webView.LoadRequest (new NSUrlRequest (new NSUrl (url)));
 			
 			// if this is false, page will be 'zoomed in' to normal size
