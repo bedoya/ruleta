@@ -1,3 +1,4 @@
+[![Build Status](https://d10gen3.visualstudio.com/Ruleta/_apis/build/status/bedoya.Ruleta)](https://d10gen3.visualstudio.com/Ruleta/_build/latest?definitionId=2)
 ---
 id: 91CBE1C6-82DE-3200-C24A-60B5BCAD4F0E
 title: "Load a Web Page"
